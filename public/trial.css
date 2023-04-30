@@ -1,0 +1,48 @@
+header {
+    height: 400px;
+    text-align: left;
+    padding-top: 100px;
+    top: 0;
+    color: white;
+    overflow: hidden;
+    background: #C04848;
+    /* fallback for old browsers */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%), url("https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2023/04_apr/28_fri/img_1682679805235_44.jpg?");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-position: center center;
+}
+
+section {
+    margin-top: 70;
+    margin-bottom: 50;
+}
+
+.image {
+    position: relative;
+}
+
+.image figcaption {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 40%;
+}
+
+.frame {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 10px 0px 100px 0;
+    position: relative; /* added */
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+} 
